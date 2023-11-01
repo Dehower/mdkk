@@ -21,13 +21,13 @@
             </header>
             <nav>
                 <a href = "index.html">
-                    Главая страница
+                    Главная страница
                 </a>
-                <a href = "turs.html">
-                    Наши туры
+                <a href = "pers.html">
+                    Персонажи
                 </a>
-                <a href = "contacts.html">
-                    О нас
+                <a href = "pesni.html">
+                    Песни с мультика
                 </a>
             </nav>
             <div id="main">
@@ -36,7 +36,7 @@
                         <td rowspan=2> Главные персонажи</td>
                         <td>
                         <nav>
-                            <a href = "shrek.html">
+                            <a href = "peers/shrek.html">
                                 Шрек
                             </a>
                             </nav>
@@ -44,35 +44,48 @@
                     <tr>
                         <td>
                         <nav>
-                            <a href = "fiona.html">
+                            <a href = "peers/fiona.html">
                                 Фиона
                             </a>
                             </nav>
                         </td>
                         <td>
-                            <nav>
-                                <a href = "osyol.html">
-                                    Осёл
-                                </a>
-                                </nav>
-                            </td>
+                        <nav>
+                            <a href = "peers/osyol.html">
+                                Осёл
+                            </a>
+                            </nav>
+                    </td>
+                        <td>
+                        <nav>
+                            <a href = "peers/kot.html">
+                                Кот
+                            </a>
+                            </nav>
+                        </td>
                     </tr>
                     <tr>
                         <td rowspan=2>Главные антагонисты</td>
-                        <td> Курортный отдых</td>
+                        <td>
+                            <nav>
+                                <a href = "peers/fk.html">
+                                    Лорд Фаркуад
+                                </a>
+                                </nav>
+                            </td>
                     <tr>
-                        <td>Горный туризм</td>
-                    </tr>
-                    <tr>
-                        <td rowspan = 2> Тур на Алтай</td>
-                        <td> Зеленый туризм</td>
-                    <tr>
-                        <td>Коннные туры</td>
+                        <td>
+                            <nav>
+                            <a href = "peers/fqresnya.html">
+                                Фея Крёсная
+                            </a>
+                            </nav>
+                        </td>
                     </tr>
                 </table>
             </div>
             <footer>
-                Это сайт, предназначенный для обучения
+                Это сайт, предназначенный для ознакомления
             </footer>
         </div>
     <style>
@@ -89,22 +102,24 @@
             text-align: center;
         }
         nav {
-            height: 40px;
-            border: solid #333;
-            padding: 1em;
-            text-align: center;
+            list-style-type: none;
+            margin: 0px;
+            padding: 1px;
+            width: 200px;
         }
         nav a{
+            display: block;
+            color:black;
+            padding: 16px 16px;
             text-decoration: none;
-            padding: 1em;
         }
         #main {
             padding: 1em;
         }
         div #logo img{
-            width: 250px;
-            height: 150px;
-            float: left;
+            width: 175px;
+            height: 175px;
+            float: right;
         }
         table#tours {
             width: 80%;
@@ -113,7 +128,7 @@
         table#tours td{
             height: 40px;
             border: solid #333;
-            padding: 1em;
+            padding: -2em;
             text-align: center;
         }
     </style>
